@@ -1,0 +1,74 @@
+<!-- indicate to browser that document is html -->
+<!DOCTYPE html>
+<!-- root tag of html document, language is English -->
+<html lang="en">
+<!-- one of two second-to-root tags, head declares important metadata -->
+<head>
+    <!-- specify character encoding -->
+    <meta charset="UTF-8">
+    <!-- make display adapt to screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title for tab bar etc, &vert; is vertical bar special character -->
+    <title>Lesson 1 &vert; HTML Basics and Document Structure</title>
+    <!-- extra stuff for SEO -->
+    <meta name="description" content="Homework assignment">
+    <meta name="keywords" content="HTML,Homework,Cookies">
+    <meta name="author" content="Andy Eshelman">
+</head>
+<!-- the final second-to-root tag, body contains all the non-meta content -->
+<body>
+    <!-- a big heading about cookies, the biggest available -->
+    <h1>Chocolate Chip Cookies&colon; a Recipe</h1>
+    <!-- a line break, followed by a horizontal line, or "rule" -->
+    <br><hr>
+    <!-- <p> is for paragraph. it's not a very good paragraph. but it does feature italics! -->
+    <p>
+        Imagine the chocolate chip cookie. Imagine its fresh baked smell. Imagine its warm gooey mouthfeel.
+        Will these dreams ever become reality? Yes! Through the technology of <i>recipe</i>.
+    </p>
+
+    <!-- <ul> wraps an unordered (bulleted) list -->
+    <ul>Ingredients&colon;
+        <!-- each item in the list is marked with <li -->
+        <li>1 cup (2 sticks) unsalted butter, softened</li>
+        <!-- sol is short for solidus, a fancy name for slash -->
+        <li>3&sol;4 cup granulated sugar</li>
+        <li>3&sol;4 cup packed brown sugar</li>
+        <li>1 teaspoon vanilla extract</li>
+        <li>2 large eggs</li>
+        <li>2 &amp; 1&sol;4 cups all-purpose flour</li>
+        <li>1 teaspoon baking soda</li>
+        <li>1&sol;2 teaspoon salt</li>
+        <li>2 cups semisweet chocolate chips</li>
+        <li>1 cup chopped nuts (optional)</li>
+    </ul>
+    <br><br>
+
+    <!-- <ol>, ordered list, works like <ul>, only items are automatically numbered rather than bulleted -->
+    <ol>Steps&colon;
+        <li>Preheat the oven to 375&deg;F (190&deg;C). Line baking sheets with parchment paper or silicone baking mats.</li>
+        <li>In a large mixing bowl, cream together the softened butter, granulated sugar, brown sugar, and vanilla extract until light and fluffy.</li>
+        <li>Add the eggs, one at a time, beating well after each addition.</li>
+        <li>In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.</li>
+        <li>Stir in the chocolate chips and chopped nuts (if using) until evenly distributed throughout the dough.</li>
+        <li>Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart.</li>
+        <li>Bake in the preheated oven for 9 to 11 minutes, or until the edges are golden brown.</li>
+        <li>Remove from the oven and allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
+    </ol>
+    <br><br>
+
+    <!-- <a> is for anchor, and is used to make text into a clickable link -->
+    <!-- the URL goes in href (hypertext reference)  -->
+    <a href="https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016">For more information, click click</a>
+    <br><br>
+
+    <!-- <img> is used to embed images, the image location is given by source, and alt text is provided in case image load fails and for accessiblility/screen readers -->
+    <img src="https://play-lh.googleusercontent.com/Z1MOuuiD05ZN5LkVmMEvKF0mqAc-FknaQ2j8s4dZiO-LSPQX4EEA3RVJdlQEtxe96ok" alt="Cookie Clicker Cookie">
+
+    <!-- &ndash; is the code for an "en dash" which is longer than a hyphon but shorter than an "em dash" -->
+    <!-- but here we were asked to encode the ampersand so that the code for the dash displays unencoded -->
+    <p>Don't forget to enjoy your Classic Chocolate Chip Cookies with a tall glass of milk &amp;ndash; the perfect combination!</p>
+</body>
+
+<!-- the end! -->
+</html>
